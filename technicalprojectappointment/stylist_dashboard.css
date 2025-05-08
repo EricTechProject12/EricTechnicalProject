@@ -1,0 +1,75 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    background-image: url('https://media.sketchfab.com/models/9b9f6bc00604457383a11597a3c10d81/thumbnails/7fc933505a6c439fbd9aefe4e14ca7b6/475d08b025074a60a8e0d2f2216186af.jpeg');
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Container for the page content */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Table styles */
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Header row styles */
+table th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+/* Table data row styles */
+table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row color for better readability */
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Add hover effect for rows */
+table tr:hover {
+    background-color: #e6f7ff;
+}
+
+/* Logout link styling */
+a {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+a:hover {
+    background-color: #45a049;
+}

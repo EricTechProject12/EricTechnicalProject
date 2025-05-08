@@ -1,0 +1,73 @@
+/* profile.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.profile-container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    padding: 25px 35px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+.booking-card {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 15px 0;
+}
+
+.booking-card:last-child {
+    border-bottom: none;
+}
+
+.booking-card p {
+    margin: 8px 0;
+}
+
+.cancel-btn {
+    display: inline-block;
+    margin-top: 12px;
+    text-decoration: none;
+    background-color: #e63946;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-btn:hover {
+    background-color: #c1272d;
+}
+
+.no-bookings {
+    text-align: center;
+    background: #fff3cd;
+    color: #856404;
+    padding: 15px;
+    border: 1px solid #ffeeba;
+    border-radius: 8px;
+}
+
+.home-link {
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.home-link:hover {
+    text-decoration: underline;
+}

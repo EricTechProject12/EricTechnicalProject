@@ -1,0 +1,99 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    background: #f2f2f2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+
+/* Container Style */
+.admin-container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px 40px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Headings */
+.admin-container h1 {
+    text-align: center;
+    color: #2a9d8f;
+    margin-bottom: 20px;
+}
+
+.admin-container h2 {
+    color: #264653;
+    border-bottom: 2px solid #2a9d8f;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+/* Links */
+.admin-container a {
+    color: #2a9d8f;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.admin-container a:hover {
+    text-decoration: underline;
+}
+
+/* Lists (Services & Slots) */
+.admin-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-container ul li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-container ul li:last-child {
+    border: none;
+}
+
+/* Table (Bookings) */
+.admin-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.admin-container table th,
+.admin-container table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.admin-container table th {
+    background: #2a9d8f;
+    color: #fff;
+}
+
+/* Buttons / Logout Link */
+.admin-container a.logout,
+.admin-container a.button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #e76f51;
+    color: #fff;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+.admin-container a.logout:hover,
+.admin-container a.button:hover {
+    background: #d65a3b;
+}
+

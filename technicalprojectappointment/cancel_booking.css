@@ -1,0 +1,66 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+}
+
+/* Center content */
+.cancel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Cancel message box */
+.cancel-box {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Heading styles */
+.cancel-box h1 {
+    font-size: 24px;
+    color: #2e2e2e;
+    margin-bottom: 15px;
+}
+
+/* Paragraph style */
+.cancel-box p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Button style */
+.cancel-box a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cancel-box a:hover {
+    background-color: #45a049;
+}
+
+/* Styling for error or success message */
+.success-message {
+    color: #4CAF50; /* Green for success */
+}
+
+.error-message {
+    color: #f44336; /* Red for errors */
+}

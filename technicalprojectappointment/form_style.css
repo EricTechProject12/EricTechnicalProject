@@ -1,0 +1,122 @@
+/* General page styling */
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://img.freepik.com/premium-photo/luxurious-salon-interior-with-glamorous-design_1204896-48370.jpg') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Form container */
+.form-container {
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 30px 40px;
+    border-radius: 20px;
+    max-width: 10px;
+    width: 40%;
+    text-align: center;
+}
+
+/* Header */
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Form elements */
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 200%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: 10px solid #ccc;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+input[type="date"],
+input[type="time"], 
+textarea,
+select {
+    width: 200%;
+    padding: 10px 15px;
+    margin: 8px 0;
+    border: 10px solid #ccc;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;          /* Adds space between form elements */
+    margin-bottom: 20px; /* Pushes the link away from the form */
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;   /* Ensures space above the link */
+}
+
+
+/* Buttons */
+button {
+    background-color: #ff4081;
+    color: white;
+    padding: 20px 25px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #e91e63;
+}
+
+/* Success/Error message styling */
+.message {
+    margin-top: 15px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.message.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* Add New Service Heading (h2) */
+h2 {
+    font-size: 2em; /* Larger text size */
+    color: #f0f4f8; /* Dark grayish-blue color */
+    text-align: center; /* Centers the heading */
+    margin-bottom: 180px; /* Adds space below the heading */
+    font-family: 'Arial', sans-serif; /* Uses a clean, modern sans-serif font */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+}
+
+/* General link styling */
+a {
+    background-color: rgba(255, 255, 255, 0.95);
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Set font size */
+    font-family: 'Arial', sans-serif; /* Use a clean, sans-serif font */
+    padding: 30px 40px; /* Add padding around the text */
+    border-radius: 20px;
+    background-color: #ecf0f1; /* Light background color */
+    margin-bottom: -200px;
+    width: 200px;
+}
+

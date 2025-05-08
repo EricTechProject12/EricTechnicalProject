@@ -1,0 +1,54 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://img.freepik.com/premium-photo/luxurious-salon-interior-with-soft-tones-elegant-modern-design_1025753-152477.jpg?semt=ais_hybrid') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container for customer booking details */
+.booking-container {
+    background: #fff;           /* White background for the box */
+    width: 100%;                 /* Occupy 80% of the viewport width */
+    max-width: 600px;           /* But no larger than 600px */
+    margin: 100px auto;         /* Centered horizontally with some top margin */
+    padding: 40px;              /* Internal padding for spacing */
+    border-radius: 20px;        /* Rounded corners */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);  /* Subtle shadow for depth */
+    text-align: center;         /* Center the inner text */
+}
+
+/* Heading styling within the booking box */
+.booking-container h1 {
+    color: #333;                /* Dark text color for contrast in the white box */
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling within the booking box */
+.booking-container p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 40px 5;
+}
+
+/* Emphasized text styling */
+.booking-container strong {
+    color: #000;
+}
+
+/* Styling for links and buttons */
+.booking-container a {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #2575fc;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.booking-container a:hover {
+    background-color:  #1a5ec8;
+}
